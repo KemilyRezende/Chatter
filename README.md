@@ -1,10 +1,50 @@
 # Chatter
 
-Este projeto, desenvolvido na disciplina de Sistemas Distribuídos, implementa um chat em tempo real que conecta um cliente Web a um cliente Desktop utilizando middleware em Java. Este repositório aborda especificamente o cliente Web.
-  - **Cliente Desktop**: (link)
-  - **Middleware**: (link)
+Este projeto, desenvolvido na disciplina de Sistemas Distribuídos, implementa um chat em tempo real que conecta um **cliente Web** a um **cliente Desktop** utilizando **middleware em Java com RMI (Remote Method Invocation)**.
 
-O sistema utiliza **Jakarta EE** para a aplicação Web e **Java** para viabilizar a comunicação em tempo real entre os clientes. O frontend foi desenvolvido com **JSP** e **CSS**, enquanto a interação com o middleware foi implementada em **Java**.
+Este repositório contém exclusivamente o código do **cliente Web**.
+
+  - **Cliente Desktop**: [link para o repositório]
+  - **Middleware**: [link para o repositório]
+
+## Sobre o Projeto
+
+O Chatter permite a troca de mensagens em tempo real entre os usuários, utilizando RMI para comunicação entre os clientes Web e Desktop.
+  - **Frontend**: Desenvolvido com **JSP** e **CSS**.
+  - **Backend**: Baseado em **Jakarta EE**, utilizando **servlets** para interação com o **middleware**.
+  - **Middleware**: Responsável pela comunicação entre os clientes via **Java RMI**.
+
+### Funcionalidades
+
+- Troca de mensagens em tempo real.
+- Personalização - escolher o avatar e cor das mensagens na tela de login.
+
+## Estrutura de Arquivos
+
+### Frontend
+
+O frontend é estruturado em três arquivos **JSP**: 
+
+  - **`index.jsp`** - Tela de login.
+  - **`chatter.jsp`** - Tela principal do chat, onde é possível ler e enviar mensagens.
+  - **`chat.jsp`** - `iframe` dentro do arquivo `chatter.jsp` que carrega as mensagens dinamicamente.
+
+### Integração com o Middleware (RMI)
+
+A comunicação com o middleware é feita através do arquivo `rmiWebInterface.java`, que permite enviar e recuperar mensagens utilizando **RMI**.
+
+## Visualização Frontend
+
+<p align="center">
+  <img src="https://github.com/KemilyRezende/Chatter/blob/main/telas/login.png" alt="Tela de login">
+</p>
+<p align="center"><em>Tela de login</em></p>
+
+<p align="center">
+  <img src="https://github.com/KemilyRezende/Chatter/blob/main/telas/chat.png" alt="Tela do chat">
+</p>
+<p align="center"><em>Tela do chat</em></p>
+
 
 ## Como executar
 
@@ -38,4 +78,4 @@ Antes de iniciar, certifique-se de ter instalado:
 
 #### Observações
 
-Caso o middleware não esteja rodando com o servidor web ativado não será possivel enviar ou visualizar mensagens.
+Para que o chat funcione corretamente, o middleware RMI precisa estar rodando. Caso contrário, não será possível enviar ou visualizar mensagens.
