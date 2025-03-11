@@ -21,7 +21,7 @@ Antes de iniciar, certifique-se de ter instalado:
 1. Clone esse repositório e acesse a pasta:
   ```bash
     git clone https://github.com/KemilyRezende/Chatter.git
-    cd Chatter
+    cd Chatter/Chatter
   ```
 2. Compile e empacote o projeto:
   ```bash
