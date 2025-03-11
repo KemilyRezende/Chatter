@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap'); 
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: first;
+    flex-direction: column;
+    margin-top: 2vh;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: first;
+    gap: 1vw;
+}
+
+.msg{
+    display: flex;
+    justify-content: center;
+    align-content: first;
+    width: 100vw;
+    gap: 1vw;
+}
+
+.msg img{
+    width: 4vw;
+}
+
+.card{
+    width: 40vw;
+    background-color: #F3D3F8;
+    border-radius: 20px;
+    border: solid 1.5px #4E0E58;
+}
+
+.purpleTitle{
+    color: #4E0E58;
+    font-family: 'League Spartan';
+    margin: 2vh;
+    font-size: 25px;
+}
+
+.purpleText{
+    color: #C323DB;
+    font-family: 'League Spartan';
+    margin: 2vh;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.greenTitle{
+    color: #0E5829;
+    font-family: 'League Spartan';
+    margin: 2vh;
+    font-size: 25px;
+}
+
+.greenText{
+    color: #24DB67;
+    font-family: 'League Spartan';
+    margin: 2vh;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.blueTitle{
+    color: #0E3D58;
+    font-family: 'League Spartan';
+    margin: 2vh;
+    font-size: 25px;
+}
+
+.blueText{
+    color: #2398DB;
+    font-family: 'League Spartan';
+    margin: 2vh;
+    font-size: 20px;
+    font-weight: bolder;
+}
