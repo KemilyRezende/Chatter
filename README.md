@@ -18,6 +18,7 @@ O Chatter permite a troca de mensagens em tempo real entre os usuários, utiliza
 
 - Troca de mensagens em tempo real.
 - Personalização - escolher o avatar e cor das mensagens na tela de login.
+- Suporte a emojis.
 
 ## Estrutura de Arquivos
 
