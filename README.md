@@ -1,4 +1,4 @@
-# Chatter
+# Chatter - Cliente Web
 
 Este projeto, desenvolvido na disciplina de Sistemas Distribuídos, implementa um chat em tempo real que conecta um **cliente Web** a um **cliente Desktop** utilizando **middleware em Java com RMI (Remote Method Invocation)**.
 
