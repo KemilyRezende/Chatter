@@ -77,6 +77,7 @@ Antes de iniciar, certifique-se de ter instalado:
     http://localhost:8080/Chatter
   ```
 
-#### Observações
+### Configurações Importantes
 
-Para que o chat funcione corretamente, o middleware RMI precisa estar rodando. Caso contrário, não será possível enviar ou visualizar mensagens.
+- Para que o chat funcione corretamente, o middleware RMI precisa estar rodando. Caso contrário, não será possível enviar ou visualizar mensagens.
+- O **servidor RMI** é chamado utilizando o endereço **localhost** (127.0.0.1) com a respectiva porta. Isso funciona quando o servidor e os clientes estão rodando no mesmo computador. Para rodar em dispositivos diferentes, será necessário alterar o endereço **localhost** no código-fonte (`chatter.jsp` e `chat.jsp`) para o endereço **IP** da máquina onde o **servidor** está em execução.
